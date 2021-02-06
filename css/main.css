@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+header {
+    background-color: lightblue;
+}
+
+header .header__wrapper {
+    background-color: lightcoral;
+    
+}
+
+.header__social-box {
+    background-color: lightseagreen
+}
+
+.header__nav {
+    background-color: orangered;
+}
+
+.wrapper__section {
+    background-color: lightskyblue;
+}
+
+.icon__arrow-up {
+    background-color: lightyellow;
+}
+
+.wrapper__footer {
+    background-color: lime;
+}
+
+.footer__nav {
+    background-color: mediumaquamarine;
+}
