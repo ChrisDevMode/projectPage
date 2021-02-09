@@ -7,17 +7,18 @@
     <title>Contacto</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,900;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/form.css">
+
+    <!-- <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/mediaQuerys.css"> -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     
-    <header>
+    <header class="header__form-page">
 
-        <div class="header__wrapper "> 
+        <div class="form__wrapper"> 
 
-
-            
-            <div class="header__box-1">
+            <div class="form__box">
 
                 <a href="index.html">
                     <svg class="icon icon__arrow-left"
@@ -26,7 +27,7 @@
                 </a>
 
 
-                <div class="header__social-box">
+                <div class="form__social-box">
                     <a href="https://es.linkedin.com/" target="blank">
 
                         <svg class="icon icon-linkedn"
@@ -50,12 +51,12 @@
 
             </div>
             
-            <nav class="header__nav nav">
-                <ul class="header__list">
-                    <li class="header__item"><a class="header__link--focus" href="form.html">[ Contacto ]</a></li>
-                    <li class="header__item"><a class="header__link" href="index.html">Home</a></li>
-                    <li class="header__item"><a class="header__link" href="works.html">Trabajos</a></li>
-                    <li class="header__item"><a class="header__link" href="bio.html">Sobre mi</a></li>
+            <nav class="form__nav ">
+                <ul class="form__list">
+                    <li class="form__item"><a class="form__link--focus" href="form.html">[ Contacto ]</a></li>
+                    <li class="form__item"><a class="form__link form__link-form"  href="index.html">Home</a></li>
+                    <li class="form__item"><a class="form__link form__link-form"  href="works.html">Trabajos</a></li>
+                    <li class="form__item"><a class="form__link form__link-form"  href="bio.html">Sobre mi</a></li>
                 </ul>
             </nav>
             
@@ -63,48 +64,52 @@
         
     </header>
 
+    <div class="wrapper__form">
 
-    <section>
-        
-        <div class="section__wrapper wrapper">
-
-            <form id="submitForm" action="#">
-                
-                <div class="form__box-1">
-
-                    <div class="inputField">
-                        <label for="userName"></label>
-                        <input type="text" name="userName" id="userName" placeholder="Nombre">
-                    </div>
-                    
-                    
-                    <div class="inputField">
-                        <label for="userLastName"></label>
-                        <input type="text" name="userLastName" id="userLastName" placeholder="apellidos">
-                    </div>
-                    
-                    <div class="inputField">
-                        <label for="userMail"></label>
-                        <input type="email" name="userMail" id="userMail" placeholder="email">
-                    </div>
-                    
-                </div>
-                
-                <div class="form__box-2">
-
-                    <textarea name="userRequest" id="userRequest"></textarea>
-                    
-                </div>
-                
-            </form>
-
-            <button class="btn-form" type="submit" form="submitForm">Boton</button>
+        <form class="section__form" id="submitForm" action="#">
             
-        </div>
-        
-    </section>
+            <div class="form__box-1">
 
+                <div class="inputField">
+                    <label for="userName"></label>
+                    <input type="text" name="userName" id="userName" placeholder="Nombre">
+                </div>
+                
+                
+                <div class="inputField">
+                    <label for="userLastName"></label>
+                    <input type="text" name="userLastName" id="userLastName" placeholder="Apellidos">
+                </div>
+                
+                <div class="inputField">
+                    <label for="userMail"></label>
+                    <input type="email" name="userMail" id="userMail" placeholder="Email">
+                </div>
+                
+            </div>
+            
+            <div class="form__box-2">
+
+                <textarea name="userRequest" id="userRequest"></textarea>
+                
+            </div>
+            
+        </form>
+
+        <button class="btn-form" type="submit" form="submitForm">Boton</button>
+        
+    </div>
+            
 </body>
 
 </html>
+
+
+    
+        
+
+
+        
+  
+
 
