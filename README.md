@@ -1,5 +1,12 @@
 
-PEQUEÑOS COMENTARIOS
+Proyecto final del Ramp up.
+10 de febrero del 2021.
+Madrid.
+
+El proyecto se encuentra en el siguiente enlace:
+https://github.com/ChrisDevMode/projectPage.git
+
+Pequeños comentarios.
 
 - Si le echáis un vistazo a los commits os puede parecer un desastre. Lo sé.
 - Ha sido en gran parte hecho a proposito. Quería ver cuantas formas tenía de hacer cosas globales y experimentar un poco con todo ese tema.
