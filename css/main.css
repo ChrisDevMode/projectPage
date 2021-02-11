@@ -657,10 +657,10 @@ svg.works__arrow-up {
 
     
 /* BIG DESKTOP ------------------------ -------------------------------------------------------------------------------------- */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
     /* Header */
     .wrapper {
-        width: 50%;
+        width: 60%;
     }
         .header__wrapper {
             width: 60%;
@@ -673,8 +673,11 @@ svg.works__arrow-up {
 
     /* Footer */
     .footer__link {
-        font-size: .8rem;
+        font-size: .6rem;
     }
+        .footer__link--focus {
+            font-size: .6rem;
+        }
 
         .copy__box h3 {
             font-size: .6rem;
