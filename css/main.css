@@ -264,7 +264,7 @@ svg.main__arrow-up {
 /* CSS BIO-PAGE */
 /* Header ---------------------- */
 .header__bio-page {
-    background-image: linear-gradient(to bottom, var(--bio-color-op),var(--white)), url(/media/bg-bio.jpg);
+    background-image: linear-gradient(to bottom, var(--bio-color-op),var(--white)), url(/media/bg-bio-res.jpg);
     height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
