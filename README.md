@@ -4,7 +4,7 @@ Proyecto final del Ramp up.
 Madrid.
 
 El proyecto se encuentra en el siguiente enlace:
-https://github.com/ChrisDevMode/projectPage.git
+https://chrisdevmode.github.io/projectPage/
 
 Pequeños comentarios.
 
