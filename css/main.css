@@ -90,6 +90,7 @@ body {
         text-transform: uppercase;
         text-shadow: 0 0 2px var(--white);
         color: var(--white);
+        font-weight: 900;
     }
         
     .header__link--focus, .footer__link--focus {
@@ -264,7 +265,7 @@ svg.main__arrow-up {
 /* CSS BIO-PAGE */
 /* Header ---------------------- */
 .header__bio-page {
-    background-image: linear-gradient(to bottom, var(--bio-color-op),var(--white)), url(/media/bg-bio-res.jpg);
+    background-image: linear-gradient(to bottom, var(--bio-color-op),var(--white)), url(/media/bg-bio2.jpg);
     height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
