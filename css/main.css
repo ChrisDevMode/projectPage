@@ -194,7 +194,7 @@ footer {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, var(--primary-color-op),var(--white)), url(/media/bg-main.jpg);
+    background-image: linear-gradient(to bottom, var(--primary-color-op),var(--white)), url(../media/bg-main.jpg);
     
     background-size: cover;
     background-position: center;
@@ -264,7 +264,7 @@ svg.main__arrow-up {
 /* CSS BIO-PAGE */
 /* Header ---------------------- */
 .header__bio-page {
-    background-image: linear-gradient(to bottom, var(--bio-color-op),var(--white)), url(/media/bg-bio.jpg);
+    background-image: linear-gradient(to bottom, var(--bio-color-op),var(--white)), url(../media/bg-bio.jpg);
     height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -318,7 +318,7 @@ svg.bio__arrow-up {
 /* CSS WORKS-PAGE */
 /* Header ---------------------- */
 .header__works-page {
-    background-image: linear-gradient(to bottom, var(--works-color-op),var(--white)), url(/media/bg-works.jpg);
+    background-image: linear-gradient(to bottom, var(--works-color-op),var(--white)), url(../media/bg-works.jpg);
     background-size: cover;
     background-position: 10%;
     height: 60vh;
@@ -363,7 +363,7 @@ svg.works__arrow-up {
 /* CSS-FORM-PAGE */
 /* Contenedor Principal */
 .bg {
-    background-image: linear-gradient(to bottom, #fffffff8,#fffffff3), url(/media/bg-form-2.jpg);
+    background-image: linear-gradient(to bottom, #fffffff8,#fffffff3), url(../media/bg-form-2.jpg);
     background-size: cover;
     
     height: 100vh;
